@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /*
+    ## Colors
+
+    ### Neutral*/
+
+  --Dark-Blue: #2b3945; /*(Elementos del modo oscuro)*/
+  --Very-Dark-Blue: #202c37; /*(Fondo de modo oscuro)*/
+  --Very-Dark-Blue: #111517; /*(Texto en modo de luz)*/
+  --Dark-Gray: #858585; /* (Entrada de modo de luz)*/
+  --Very-Light-Gray: #fafafa; /*(Fondo del modo de luz)*/
+  --White: #ffffff; /*(Texto en modo oscuro y elementos en modo claro)*/
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
