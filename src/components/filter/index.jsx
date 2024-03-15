@@ -37,7 +37,7 @@ function FilterRegion() {
         <Menu.Items className=" right-0 z-10 mt-2 px-12 origin-top-right rounded-md bg-White shadow  focus:outline-none">
           <div className="flex flex-col gap-3 py-6">
             {navigation.map((item, index) => (
-              <Menu.Item>
+              <Menu.Item key={index}>
                 {({ active }) => (
                   <a
                     href="#"

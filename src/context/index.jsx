@@ -22,7 +22,7 @@ const DataProvider = ({ children }) => {
 
   useEffect(() => {
     fetchData();
-  }, [buscar]);
+  }, []);
   ////console.log("Use state Buscar: " + buscar);
 
   return (

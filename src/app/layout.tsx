@@ -8,9 +8,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "REST Countries API",
   description: "REST Countries API with color theme switcher",
-  icons: {
-    icon: [iconFrontend],
-  },
 };
 
 export default function RootLayout({

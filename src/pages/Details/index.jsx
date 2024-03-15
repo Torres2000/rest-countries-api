@@ -8,7 +8,10 @@ import Border from "@/components/BorderCountries";
 import { Link } from "react-router-dom";
 
 function Details({ darkMode }) {
-  const currentPath = window.location.pathname;
+  let currentPath;
+  if (typeof window !== "undefined") {
+    currentPath = window.location.pathname;
+  }
   let nombreRecibido = currentPath.substring(currentPath.lastIndexOf("/") + 1);
   //console.log(nombreRecibido);
   const [datos, setDatos] = useState([]);
